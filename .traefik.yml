@@ -1,0 +1,6 @@
+displayName: JWT Dynamic Redirect
+type: middleware
+import: github.com/achaveztematica/traefik-jwt-dynamic-redirect
+summary: Redirect based on JWT claims and token
+testData:
+  redirectTemplate: "https://myvisual.es/release/{claim.databaseVersion}/#/login?jwt={token}"
