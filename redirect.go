@@ -1,4 +1,4 @@
-package traefik_jwt_dynamic_redirect
+package main
 
 import (
 	"context"
